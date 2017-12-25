@@ -1,12 +1,11 @@
-Package: HMM_Rcpp
+Package: HMMRcpp
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Viterbi and ForwardBackward Implementation for Generic HMM
 Version: 1.0
 Date: 2017-11-21
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as one or
-        more full sentences.
+Author: Luke Puglisi
+Maintainer: Luke Puglisi (lpuglisi@umich.edu)
+Description: This package focuses on implementing a generic Hidden Markov Model algorithm for a continuous-time Markov Chain hidden Markov models. It implements the Viterbi and Forward Backward algorithms in O(nm) time complexity. Each of the functions in this package require three inputs: ts, theta, and obs. ts is a timestamp vector of length m, theta is a double used to calculate the transition probability, and obs is an n x m likelihood matrix of P(observation | state).
 License: GPL (>= 2)
 Imports: Rcpp (>= 0.12.13)
 LinkingTo: Rcpp
