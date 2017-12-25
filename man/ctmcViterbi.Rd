@@ -2,7 +2,7 @@
 \alias{ctmcViterbi}
 \docType{package}
 \title{
-Viterbi Algorithm Implemented in Rcpp
+Viterbi Algorithm Implemented in  Rcpp
 }
 \arguments{
 	\item{ts}{size m numeric vector of timestamp values}
