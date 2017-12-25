@@ -1,5 +1,5 @@
-\name{HMM_Rcpp}
-\alias{HMM_Rcpp}
+\name{HMMRcpp}
+\alias{HMMRcpp}
 \docType{package}
 \title{
   Viterbi and ForwardBackward Implementation for Generic HMM
