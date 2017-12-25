@@ -2,7 +2,7 @@
 \alias{ctmcForwardBackward}
 \docType{package}
 \title{
-Forward-Backward Algorithm Implemented in Rcpp
+Forward-Backward Algorithm Implemented in  Rcpp
 }
 \arguments{
 	\item{ts}{size m numeric vector of timestamp values}
