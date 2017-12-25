@@ -11,6 +11,6 @@
 	Key functions that are implemented in this package are ctmcViterbi and ctmcForwardBackward. See function documentation for more details.
 }
 \author{
-Luke Puglisi - lpuglisi@umich.edu
+Luke Puglisi - lpuglisi@umich.edu 
 }
 
