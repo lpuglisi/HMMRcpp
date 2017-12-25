@@ -2,9 +2,9 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 ctmcForwardBackward <- function(ts, theta, obs) {
-    .Call('_HMM_Rcpp_ctmcForwardBackward', PACKAGE = 'HMM_Rcpp', ts, theta, obs)
+    .Call('_HMMRcpp_ctmcForwardBackward', PACKAGE = 'HMMRcpp', ts, theta, obs)
 }
 
 ctmcViterbi <- function(ts, theta, obs) {
-    .Call('_HMM_Rcpp_ctmcViterbi', PACKAGE = 'HMM_Rcpp', ts, theta, obs)
+    .Call('_HMMRcpp_ctmcViterbi', PACKAGE = 'HMMRcpp', ts, theta, obs)
 }
